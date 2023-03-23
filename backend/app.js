@@ -9,7 +9,6 @@ const userRoutes = require("./routes/user");
 const app = express();
 
 mongoose.set('strictQuery', true);
-// mongodb+srv://max:JcdhbWKGULz7DSqF@cluster0.faxphde.mongodb.net/node-angular?retryWrites=true&w=majority
 mongoose
   .connect(
     `mongodb+srv://max:${process.env.MONGO_ATLAS_PW}@cluster0.faxphde.mongodb.net/node-angular`
