@@ -1,4 +1,10 @@
-# Mean
+# My posts
+Web application is built in Mongo Express Angular and Node.js stack
+
+Provides next features:
+- Authentication and authorization
+- Posts management system
+- Shares your posts with other users
 
 This project was created with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
 
